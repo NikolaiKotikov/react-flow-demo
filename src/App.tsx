@@ -206,7 +206,7 @@ function App() {
                     onNodesChange={onNodesChange}
                     onNodesDelete={onNodesDelete}
                     edges={edges}
-                    defaultEdgeOptions={{type: 'smoothstep', markerEnd: {type: MarkerType.Arrow}}}
+                    defaultEdgeOptions={{type: 'buttonedge', markerEnd: {type: MarkerType.Arrow}}}
                     onConnect={onConnect}
                     onEdgesChange={onEdgesChange}
                     edgeTypes={edgeTypes}
