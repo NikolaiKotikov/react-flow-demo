@@ -17,9 +17,6 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v3
 
-      - name: Clean
-        run: npm run clean
-
       - name: Install dependencies
         uses: bahmutov/npm-install@v1
 
